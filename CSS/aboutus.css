@@ -1,0 +1,33 @@
+
+body {
+    background-color: #fc4b60;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-color: #58b19f; 
+    color: white; 
+    border-radius: 10px; 
+    padding: 15px; 
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.form-check.form-switch label {
+    color: #fff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
