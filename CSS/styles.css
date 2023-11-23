@@ -1,7 +1,7 @@
-/* Estilos generales */
+
 
 body {
-    background-color: #fc4b60; /* Cambia el color de fondo según tu preferencia */
+    background-color: #fc4b60; 
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -25,39 +25,50 @@ nav a {
     color: white;
 }
 
-/* Main Content */
+
 
 .main-content {
     text-align: center;
     padding: 20px;
 }
 
-/* Carrusel */
+
 
 #image-carousel {
-    background-color: white; /* Cambia el color de fondo del carrusel */
-    border-radius: 15px; /* Ajusta el valor según sea necesario para obtener los bordes redondos deseados */
-    overflow: hidden; /* Asegura que las imágenes no se extiendan más allá de los bordes redondos */
+    background-color: white; 
+    border-radius: 15px; 
+    overflow: hidden; 
 }
 
 #image-carousel img {
-    /* Estilos de las imágenes del carrusel */
-    border-radius: 15px; /* Ajusta el valor para que coincida con el borde del carrusel */
+    border-radius: 15px; 
 }
-/* Pricing / Plans, Terms and Conditions, Privacy Policy, Footer, etc. */
-
-/* Agrega estilos según sea necesario */
 
 h2 {
-    background-color: #58b19f; /* Color de fondo */
-    color: white; /* Color del texto */
-    border-radius: 10px; /* Ajusta el valor para obtener bordes redondos */
-    padding: 15px; /* Ajusta el relleno según sea necesario */
+    background-color: #58b19f; 
+    color: white; 
+    border-radius: 10px; 
+    padding: 15px; 
     margin-bottom: 50px;
-    text-align: center; /* Centra el texto */
+    text-align: center; 
 }
 
-/* Estilos para p */
 p {
     font-size: 18px;
 }
+
+.footer-text {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+.footer-text a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+.footer-text a:hover {
+    color: rgb(200, 200, 200); 
+    text-decoration: none; 
+}
+

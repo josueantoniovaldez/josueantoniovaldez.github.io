@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Obtiene el interruptor y los elementos con atributos de idioma
+
     const languageSwitch = document.getElementById('languageSwitch');
     const elementsToTranslate = document.querySelectorAll('[data-lang]');
 
-    // Define las traducciones
+
     const translations = {
         'en': {
             'home': 'Home',
@@ -90,24 +90,24 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     };
 
-    // Establece el idioma inicial (inglés)
+
     let currentLanguage = 'en';
 
-    // Función para cambiar el idioma
+
     function toggleLanguage() {
         currentLanguage = currentLanguage === 'en' ? 'es' : 'en';
 
-        // Itera sobre los elementos y actualiza su contenido según el idioma
+
         elementsToTranslate.forEach(element => {
             const key = element.dataset.lang;
             element.innerText = key ? translations[currentLanguage][key] : element.innerText;
         });
     }
 
-    // Agrega un evento al interruptor para cambiar el idioma al hacer clic
+
     languageSwitch.addEventListener('change', toggleLanguage);
 
-    // Inicializa los elementos con el idioma actual
+
     elementsToTranslate.forEach(element => {
         const key = element.dataset.lang;
         element.innerText = key ? translations[currentLanguage][key] : element.innerText;
